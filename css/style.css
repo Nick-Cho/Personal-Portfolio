@@ -1,0 +1,49 @@
+/* importing fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* Css variables */
+@import url(./partials/_variables.css);
+
+/* Nav Bar Styling*/
+.header_area .main_menu .navbar .navbar-brand{
+  padding: 0 0rem 0 5rem; 
+} 
+
+.header_area .main_menu .navbar{
+  padding: 1rem 7rem; 
+}
+
+.header_area .main_menu .nav-item .nav-link{
+  text-transform: uppercase;
+  font-weight: 500; 
+  padding: 1.5rem;
+  color: var(--title-color);
+}
+
+.header_area .main_menu .navbar .navbar-brand .img-square{
+  width: 17px ;
+  height: 17px ;
+}
+
+.name_header{
+  display: inline-block;
+}
+
+.header_area .main_menu .navbar-nav .active a{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main_menu .navbar-nav a:hover{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Banner Styling */
+.site-main .site-banner{
+  padding: 5rem 2rem 10rem 20rem; 
+}
