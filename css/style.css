@@ -9,11 +9,13 @@
 
 /* Nav Bar Styling*/
 .header_area .main_menu .navbar .navbar-brand{
-  padding: 0 0rem 0 5rem; 
+  
+  padding-left:10rem; 
 } 
 
-.header_area .main_menu .navbar{
-  padding: 1rem 7rem; 
+
+.header_area .main_menu .navbarNAV{
+  padding-right: 0rem;
 }
 
 .header_area .main_menu .nav-item .nav-link{
@@ -23,6 +25,11 @@
   color: var(--title-color);
 }
 
+.header_area .main_menu .navbar .icons .icon{
+  width: 30px;
+  height: 30px;
+ 
+}
 .header_area .main_menu .navbar .navbar-brand .img-square{
   width: 17px ;
   height: 17px ;
