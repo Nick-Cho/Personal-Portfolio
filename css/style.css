@@ -9,14 +9,8 @@
 
 /* Nav Bar Styling*/
 .header_area .main_menu .navbar .navbar-brand{
-  
-  padding-left:10rem; 
+  padding-left: 7rem; 
 } 
-
-
-.header_area .main_menu .navbarNAV{
-  padding-right: 0rem;
-}
 
 .header_area .main_menu .nav-item .nav-link{
   text-transform: uppercase;
@@ -28,7 +22,7 @@
 .header_area .main_menu .navbar .icons .icon{
   width: 30px;
   height: 30px;
- 
+  margin: 10px;
 }
 .header_area .main_menu .navbar .navbar-brand .img-square{
   width: 17px ;
