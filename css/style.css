@@ -67,3 +67,15 @@ font-size: 1.5rem
 .site-main .site-banner .img-fluid{
   padding: 0rem 3rem 0rem 0rem;
 }
+
+/* About Area */
+.site-main .about-area{
+  padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2> span{
+  display: block;
+  font-size: 49px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
