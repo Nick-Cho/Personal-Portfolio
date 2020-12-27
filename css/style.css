@@ -29,8 +29,23 @@
   height: 17px ;
 }
 
-.name_header{
-  display: inline-block;
+.second-N{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.first-N{
+  letter-spacing: -50px;
+}
+.N{
+  word-spacing: -3px;
+}
+
+.h1-second-N{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .header_area .main_menu .navbar-nav .active a{
@@ -48,12 +63,23 @@
 }
 
 /* Banner Styling */
+.h1-N{
+  word-spacing: -25px;
+}
+
+.h1-first-N{
+  letter-spacing: -55px;
+}
+.name_header{
+  display: inline-block;
+}
+
 .site-main .site-banner{
   padding: 5rem 2rem 10rem 20rem; 
   /*background: url(../img/background.jpg) no-repeat 0% 50%;*/
 }
 
-.site-main .site-banner .site-title h3{
+site-main .site-banner .site-title h3{
   font-weight: 500;
 }
 
@@ -77,5 +103,30 @@ font-size: 1.5rem
   display: block;
   font-size: 49px;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
+}
+
+.site-main .skills-area .Cplus-icon{
+  width: 8rem;
+}
+
+.site-main .skills-area .HTML-icon{
+  width: 9rem;
+}
+
+.site-main .skills-area .CSS-icon{
+  width: 6.3rem;
+}
+
+.site-main .skills-area .Bootstrap-icon{
+  width: 8rem;
+}
+
+.site-main .skills-area .skills-title {
+  font-weight: bold;
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+  font-size: 40px;
 }
