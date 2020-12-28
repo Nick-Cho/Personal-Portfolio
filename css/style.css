@@ -106,20 +106,21 @@ font-size: 1.5rem
   letter-spacing: 5px;
 }
 
+/* Skills and Experience Area */
 .site-main .skills-area .Cplus-icon{
-  width: 8rem;
+  width: 7rem;
 }
 
 .site-main .skills-area .HTML-icon{
-  width: 9rem;
+  width: 8rem;
 }
 
 .site-main .skills-area .CSS-icon{
-  width: 6.3rem;
+  width: 8.2rem;
 }
 
 .site-main .skills-area .Bootstrap-icon{
-  width: 8rem;
+  width: 7rem;
 }
 
 .site-main .skills-area .skills-title {
@@ -130,3 +131,37 @@ font-size: 1.5rem
   background-size: 100%;
   font-size: 40px;
 }
+
+.site-main .skills-area{
+  padding: 7rem 14rem;
+  margin-bottom: 5rem;
+}
+
+.single-skill{
+  padding: 10px;
+}
+
+.site-main .skills-area .row .col-lg-4{
+  display: flex;
+  justify-content: center;
+}
+
+.site-main .skills-area .row .col-lg-4 > .single-skill{
+  border: 1px solid var(--border-color);
+  text-align: center;
+  padding: 1rem 0rem; 
+  margin: 0.8rem 0;
+  width: 180px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.site-main .skills-area .row .col-lg-4 > .single-skill> img{
+  width:70%;  
+}
+
+.site-main .skills-area .row .col-lg-4 > .single-skill:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+
