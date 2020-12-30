@@ -8,6 +8,10 @@
 @import url(./partials/_variables.css);
 
 /* Nav Bar Styling*/
+.main_menu{
+ 
+}
+
 .header_area .main_menu .navbar .navbar-brand{
   padding-left: 7rem; 
 } 
@@ -17,6 +21,7 @@
   font-weight: 500; 
   padding: 1.5rem;
   color: var(--title-color);
+  top: 0;
 }
 
 .header_area .main_menu .navbar .icons .icon{
@@ -27,25 +32,24 @@
 .header_area .main_menu .navbar .navbar-brand .img-square{
   width: 17px ;
   height: 17px ;
+  top: 0;
 }
 
 .second-N{
   background: var(--gradient-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  top: 0;
 }
 
 .first-N{
   letter-spacing: -50px;
-}
-.N{
-  word-spacing: -3px;
+  top: 0;
 }
 
-.h1-second-N{
-  background: var(--gradient-color);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.N{
+  word-spacing: -3px;
+  top: 0;
 }
 
 .header_area .main_menu .navbar-nav .active a{
@@ -53,6 +57,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  top: 0;
 }
 
 .header_area .main_menu .navbar-nav a:hover{
@@ -60,7 +65,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  top: 0;
 }
+
 
 /* Banner Styling */
 .h1-N{
@@ -70,6 +77,13 @@
 .h1-first-N{
   letter-spacing: -55px;
 }
+
+.h1-second-N{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .name_header{
   display: inline-block;
 }
@@ -99,11 +113,15 @@ font-size: 1.5rem
   padding: 8rem 5rem;
 }
 
-.site-main .about-area .about-title h2> span{
+.site-main .about-area .about-title h2 > span{
   display: block;
   font-size: 49px;
   font-weight: bold;
   letter-spacing: 5px;
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
 }
 
 /* Skills and Experience Area */
@@ -149,7 +167,8 @@ font-size: 1.5rem
 .site-main .skills-area .row .col-lg-4 > .single-skill{
   border: 1px solid var(--border-color);
   text-align: center;
-  padding: 1rem 0rem; 
+  padding: 1rem 0rem;
+  padding-top: 0rem; 
   margin: 0.8rem 0;
   width: 180px;
   cursor: pointer;
@@ -165,3 +184,60 @@ font-size: 1.5rem
   transform: scale(1.1);
 }
 
+.site-main .experience-area .skills-title{
+  padding-left: 5rem;
+}
+.site-main .experience-area .skills-title{
+  padding-left: 5rem;
+}
+
+.time{
+  color: white;
+  background: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pop-out-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 300px;
+}
+
+.pop-out-content a{
+  color: black;
+  text-decoration: none;
+}
+
+.pop-out-content .c-proj-img{
+  width: 250px;
+}
+
+.pop-out-content h3{
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.single-skill:hover .pop-out-content{
+  display:block;
+  box-shadow: var(--box-shadow);
+}
+
+.pop-out-content .py-proj-img{
+  width: 200px;
+}
+
+.skills-text{
+  padding-top: 2rem;
+  padding-left: 5rem;
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#skills-area{
+  padding-top: 250px;
+  padding-bottom: 300px;
+}
