@@ -12,11 +12,11 @@
  
 }
 
-#header_area .main_menu .navbar .navbar-brand{
+.header_area .main_menu .navbar .navbar-brand{
   padding-left: 7rem; 
 } 
 
-#header_area .main_menu .nav-item .nav-link{
+.header_area .main_menu .nav-item .nav-link{
   text-transform: uppercase;
   font-weight: 500; 
   padding: 1.5rem;
@@ -24,13 +24,13 @@
   top: 0;
 }
 
-#header_area .main_menu .navbar .icons .icon{
+.header_area .main_menu .navbar .icons .icon{
   width: 30px;
   height: 30px;
   margin: 10px;
   color: var(--border-color);
 }
-#header_area .main_menu .navbar .navbar-brand .img-square{
+.header_area .main_menu .navbar .navbar-brand .img-square{
   width: 17px ;
   height: 17px ;
   top: 0;
@@ -53,7 +53,7 @@
   top: 0;
 }
 
-#header_area .main_menu .navbar-nav .active a{
+.header_area .main_menu .navbar-nav .active a{
   background: var(--gradient-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -61,7 +61,7 @@
   top: 0;
 }
 
-#header_area .main_menu .navbar-nav a:hover{
+.header_area .main_menu .navbar-nav a:hover{
   background: var(--gradient-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -238,7 +238,7 @@ font-size: 1.5rem
   font-weight: 500;
 }
 
-#skills-area{
+.skills-area{
   padding-top: 250px;
   padding-bottom: 300px;
 }
