@@ -241,3 +241,32 @@ font-size: 1.5rem
   padding-top: 250px;
   padding-bottom: 300px;
 }
+
+
+
+
+/* Project File */
+.single-proj{
+  width: 350px;
+  height: 250px;
+  margin-left:-5px;
+  filter: brightness(70%);
+}
+
+.single-proj-frame{
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+  display: inline;
+}
+
+.single-proj-frame img{
+  transform: transform 1s ease;
+}
+
+.single-proj-frame:hover  img {
+  filter: brightness(110%);
+  transform: scale(1.1);
+  
+}
+
