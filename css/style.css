@@ -8,9 +8,7 @@
 @import url(./partials/_variables.css);
 
 /* Nav Bar Styling*/
-.main_menu{
- 
-}
+
 
 .header_area .main_menu .navbar .navbar-brand{
   padding-left: 7rem; 
@@ -142,6 +140,10 @@ font-size: 1.5rem
   width: 7rem;
 }
 
+.site-main .skills-area .Python-icon{
+  width: 8rem;
+}
+
 .site-main .skills-area .skills-title {
   font-weight: bold;
   background: var(--gradient-color);
@@ -160,34 +162,32 @@ font-size: 1.5rem
   padding: 10px;
 }
 
-.site-main .skills-area .row .col-lg-4{
+.site-main .skills-area .first-row .col-lg-4{
   display: flex;
   justify-content: center;
 }
 
-.site-main .skills-area .row .col-lg-4 > .single-skill{
+.site-main .skills-area .first-row .col-lg-4 > .single-skill{
   border: 1px solid var(--border-color);
   text-align: center;
-  padding: 1rem 0rem;
-  padding-top: 0rem; 
+  padding: 1rem rem;
+  padding-top: 0px;
   margin: 0.8rem 0;
   width: 180px;
+  height: 100px;
   cursor: pointer;
-  transition: transform 0.5s;
+  transition: transform 0.5s ease;
 }
 
-.site-main .skills-area .row .col-lg-4 > .single-skill> img{
+.site-main .skills-area .first-row .col-lg-4 > .single-skill> img{
   width:70%;  
 }
 
-.site-main .skills-area .row .col-lg-4 > .single-skill:hover {
+.site-main .skills-area .first-row .col-lg-4 > .single-skill:hover{
   box-shadow: var(--box-shadow);
   transform: scale(1.1);
 }
 
-.site-main .experience-area .skills-title{
-  padding-left: 5rem;
-}
 .site-main .experience-area .skills-title{
   padding-left: 5rem;
 }
@@ -279,6 +279,10 @@ font-size: 1.5rem
 
 .single-proj-frame:hover .view-proj-btn{
   display: block;
+}
+
+footer.footer-area{
+  padding: 5rem 0;
 }
 
 
