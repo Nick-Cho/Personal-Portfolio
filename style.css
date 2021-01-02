@@ -1,0 +1,296 @@
+/* importing fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* global styling*/
+@import url(./partials/_global.css);
+
+/* Css variables */
+@import url(./partials/_variables.css);
+
+/* Nav Bar Styling*/
+#header_area{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+}
+
+ .main_menu .navbar .navbar-brand{
+  padding-left: 7rem; 
+} 
+
+ .main_menu .nav-item .nav-link{
+  text-transform: uppercase;
+  font-weight: 500; 
+  padding: 1.5rem;
+  color: var(--title-color);
+  top: 0;
+}
+
+ .main_menu .navbar .icons .icon{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+ .main_menu .navbar .navbar-brand .img-square{
+  width: 17px ;
+  height: 17px ;
+  top: 0;
+}
+
+.second-N{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  top: 0;
+}
+
+.first-N{
+  letter-spacing: -50px;
+  top: 0;
+}
+
+.N{
+  word-spacing: -3px;
+  top: 0;
+}
+
+ .main_menu .navbar-nav .active a{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  top: 0;
+}
+
+ .main_menu .navbar-nav a:hover{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  top: 0;
+}
+
+
+/* Banner Styling */
+
+.banner{
+  margin-top: 3rem;
+}
+
+.h1-N{
+  word-spacing: -25px;
+}
+
+.h1-first-N{
+  letter-spacing: -55px;
+}
+
+.h1-second-N{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.name_header{
+  display: inline-block;
+}
+
+.site-main .site-banner{
+  padding: 5rem 2rem 10rem 20rem; 
+  /*background: url(../img/background.jpg) no-repeat 0% 50%;*/
+}
+
+.site-main .site-banner .site-title h3{
+  font-weight: 500;
+}
+
+.site-main .site-banner .site-title h1{
+font-size: 5rem
+}
+.site-main .site-banner .site-title h4{
+font-size: 1.5rem
+}
+
+.site-main .site-banner .img-fluid{
+  padding: 0rem 3rem 0rem 0rem;
+}
+
+/* About Area */
+#about-area{
+  padding: 8rem 5rem;
+}
+
+.site-main  .about-title h2 > span{
+  display: block;
+  font-size: 49px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+}
+
+/* Skills and Experience Area */
+.site-main .skills-area .Cplus-icon{
+  width: 7rem;
+}
+
+.site-main .skills-area .HTML-icon{
+  width: 8rem;
+}
+
+.site-main .skills-area .CSS-icon{
+  width: 8.2rem;
+}
+
+.site-main .skills-area .Bootstrap-icon{
+  width: 7rem;
+}
+
+.site-main .skills-area .skills-title {
+  font-weight: bold;
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+  font-size: 40px;
+}
+
+.site-main .skills-area{
+  padding: 7rem 14rem;
+  margin-bottom: 5rem;
+}
+
+.single-skill{
+  padding: 10px;
+}
+
+.site-main .skills-area .row .col-lg-4{
+  display: flex;
+  justify-content: center;
+}
+
+.site-main .skills-area .row .col-lg-4 > .single-skill{
+  border: 1px solid var(--border-color);
+  text-align: center;
+  padding: 1rem 0rem;
+  padding-top: 0rem; 
+  margin: 0.8rem 0;
+  width: 180px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.site-main .skills-area .row .col-lg-4 > .single-skill> img{
+  width:70%;  
+}
+
+.site-main .skills-area .row .col-lg-4 > .single-skill:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+
+.site-main .experience-area .skills-title{
+  padding-left: 5rem;
+}
+.site-main .experience-area .skills-title{
+  padding-left: 5rem;
+}
+
+.time{
+  color: white;
+  background: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pop-out-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 300px;
+}
+
+.pop-out-content a{
+  color: black;
+  text-decoration: none;
+}
+
+.pop-out-content .c-proj-img{
+  width: 250px;
+}
+
+.pop-out-content h3{
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.single-skill:hover .pop-out-content{
+  display:block;
+  box-shadow: var(--box-shadow);
+}
+
+.pop-out-content .py-proj-img{
+  width: 200px;
+}
+
+.skills-text{
+  padding-top: 2rem;
+  padding-left: 5rem;
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.skills-area{
+  padding-top: 250px;
+  padding-bottom: 300px;
+}
+
+
+
+
+/* Project File */
+.single-proj{
+  overflow:hidden;
+  width: 350px;
+  height: 225px;
+  filter: brightness(70%);
+}
+
+.single-proj-first{
+  overflow: hidden;
+  width: 350px;
+  height: 225px;
+  overflow: hidden;
+  filter: brightness(70%);
+  
+}
+
+.single-proj-frame{
+  width: 350px;
+  height: 225px;
+  overflow: hidden;
+  display: inline-block;
+  
+}
+
+.single-proj-frame img{
+  overflow: hidden;
+  transition: transform 0.4s ease;
+}
+
+.single-proj-frame:hover  img {
+  
+  filter: brightness(110%);
+  transform: scale(1.1);
+  overflow:hidden;
+}
+
+.spacing{
+  padding: 45px;
+}
