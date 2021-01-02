@@ -75,8 +75,8 @@
 
 /* Banner Styling */
 
-.banner{
-  margin-top: 3rem;
+#banner{
+  padding-top: 3rem;
 }
 
 .h1-N{
@@ -97,23 +97,23 @@
   display: inline-block;
 }
 
-.site-main .site-banner{
+#site-banner{
   padding: 5rem 2rem 10rem 20rem; 
   /*background: url(../img/background.jpg) no-repeat 0% 50%;*/
 }
 
-.site-main .site-banner .site-title h3{
+.site-main .site-title h3{
   font-weight: 500;
 }
 
-.site-main .site-banner .site-title h1{
+.site-main  .site-title h1{
 font-size: 5rem
 }
-.site-main .site-banner .site-title h4{
+.site-main  .site-title h4{
 font-size: 1.5rem
 }
 
-.site-main .site-banner .img-fluid{
+.site-main  .img-fluid{
   padding: 0rem 3rem 0rem 0rem;
 }
 
